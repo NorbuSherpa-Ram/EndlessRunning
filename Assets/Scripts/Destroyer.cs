@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace Core.Norbu{
+
+
+
+
 public class Destroyer : MonoBehaviour {
 
     public float lifetime;
@@ -10,4 +15,5 @@ public class Destroyer : MonoBehaviour {
     {
         Destroy(gameObject, lifetime);
     }
+}
 }

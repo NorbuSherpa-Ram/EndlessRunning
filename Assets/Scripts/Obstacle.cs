@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+namespace Core.Norbu{
+
 public class Obstacle : MonoBehaviour {
 
     public float speed;
@@ -20,4 +23,6 @@ public class Obstacle : MonoBehaviour {
             Destroy(gameObject);
         }   
     }
+}
+
 }
